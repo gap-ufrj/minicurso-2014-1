@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="20sp"
+            android:id="@+id/segunda_activity_texto"
+            android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar email"
+            android:id="@+id/segunda_activity_enviar_email"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecionar um contato"
+            android:id="@+id/segunda_activity_selecionar_contato"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+</LinearLayout>
