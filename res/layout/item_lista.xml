@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:padding="6dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_lista_imagem"
+            android:src="@drawable/ic_launcher"
+            android:layout_weight="1"
+            android:focusableInTouchMode="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Um texto qualquer"
+            android:id="@+id/item_lista_texto"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textIsSelectable="true"
+            android:gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click!"
+            android:id="@+id/item_lista_botao"
+            android:layout_gravity="right"
+            android:layout_weight="0.01"/>
+</LinearLayout>
